@@ -15,7 +15,8 @@ Fraser Cormack & Pierre-André Saulais, Codeplay Software
 Getting Started
 ===============
 
-The LEG repositories (llvm-leg, clang-leg) both track tip, and aren't tied to any specific revision of LLVM/Clang.
+The LEG repositories (llvm-leg, clang-leg) both track tip, and aren't tied to
+any specific revision of LLVM/Clang. TODO(wcui): But this one seems work with 3.8.1 only.
 
 Tried & tested build systems:
 *  CMake
@@ -27,7 +28,7 @@ Building with in-tree clang (optional)
 --------------------------------------
 
     cd llvm-leg
-    git clone git@github.com:codeplaysoftware/clang-leg.git tools/clang
+    Download cfe-3.8.1 from LLVM Download site and extract to tools/clang
 
 Building with make
 ------------------
